@@ -4,7 +4,7 @@ import { PiUserCircle } from "react-icons/pi";
 export default function Navbar() {
   return (
     <div>
-      <div className="navbar bg-base-100 px-0">
+      <div className="navbar bg-base-100 px-0 py-4">
         <div className="navbar-start">
           <div className="dropdown">
             <div

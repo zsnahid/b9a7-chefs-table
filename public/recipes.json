@@ -1,0 +1,112 @@
+{
+  "recipes": [
+    {
+      "recipe_id": "R001",
+      "recipe_name": "Chicken Teriyaki Bowl",
+      "recipe_image": "/src/assets/chicken-teriyaki.jpg",
+      "short_description": "A classic Japanese dish featuring tender chicken glazed with sweet and savory teriyaki sauce, served over steamed rice.",
+      "ingredients": [
+        "500g chicken breast",
+        "120ml soy sauce",
+        "60ml mirin",
+        "45ml sake",
+        "3 tbsp brown sugar",
+        "2 cups steamed rice",
+        "2 green onions",
+        "1 tbsp grated ginger"
+      ],
+      "preparing_time": "25 min",
+      "calories": "425 calories"
+    },
+    {
+      "recipe_id": "R002",
+      "recipe_name": "Mediterranean Quinoa Salad",
+      "recipe_image": "/src/assets/quinoa-salad.jpg",
+      "short_description": "A refreshing and nutritious salad combining quinoa with fresh vegetables and Mediterranean flavors.",
+      "ingredients": [
+        "250g quinoa",
+        "200g cherry tomatoes",
+        "150g cucumber",
+        "100g feta cheese",
+        "50g kalamata olives",
+        "60ml olive oil",
+        "1 lemon juice",
+        "Fresh herbs"
+      ],
+      "preparing_time": "20 min",
+      "calories": "310 calories"
+    },
+    {
+      "recipe_id": "R003",
+      "recipe_name": "Thai Green Curry",
+      "recipe_image": "/src/assets/thai-green-curry.jpg",
+      "short_description": "A fragrant and creamy Thai curry with vegetables and your choice of protein, perfect with jasmine rice.",
+      "ingredients": [
+        "400ml coconut milk",
+        "100g green curry paste",
+        "300g mixed vegetables",
+        "400g tofu",
+        "2 kaffir lime leaves",
+        "15g Thai basil",
+        "2 tbsp fish sauce",
+        "1 tbsp palm sugar"
+      ],
+      "preparing_time": "35 min",
+      "calories": "385 calories"
+    },
+    {
+      "recipe_id": "R004",
+      "recipe_name": "Classic Margherita Pizza",
+      "recipe_image": "/src/assets/margherita-pizza.jpg",
+      "short_description": "Traditional Italian pizza topped with fresh tomatoes, mozzarella, and basil on a perfectly crispy crust.",
+      "ingredients": [
+        "300g pizza dough",
+        "200g San Marzano tomatoes",
+        "150g fresh mozzarella",
+        "Fresh basil leaves",
+        "2 tbsp olive oil",
+        "1 clove garlic",
+        "Salt and pepper",
+        "Semolina flour"
+      ],
+      "preparing_time": "40 min",
+      "calories": "285 calories"
+    },
+    {
+      "recipe_id": "R005",
+      "recipe_name": "Maple Glazed Salmon",
+      "recipe_image": "/src/assets/maple-glazed-salmon.png",
+      "short_description": "Perfectly baked salmon fillets with a sweet and savory maple glaze, served with roasted vegetables.",
+      "ingredients": [
+        "600g salmon fillets",
+        "60ml maple syrup",
+        "30ml soy sauce",
+        "2 cloves garlic",
+        "1 tbsp ginger",
+        "1 tbsp Dijon mustard",
+        "Black pepper",
+        "300g mixed vegetables"
+      ],
+      "preparing_time": "30 min",
+      "calories": "395 calories"
+    },
+    {
+      "recipe_id": "R006",
+      "recipe_name": "Vegetarian Buddha Bowl",
+      "recipe_image": "/src/assets/buddha-bowl.jpg",
+      "short_description": "A nourishing bowl packed with roasted chickpeas, quinoa, fresh vegetables, and tahini dressing.",
+      "ingredients": [
+        "400g chickpeas",
+        "200g quinoa",
+        "250g sweet potato",
+        "150g kale",
+        "100g red cabbage",
+        "60ml tahini",
+        "1 avocado",
+        "Mixed seeds"
+      ],
+      "preparing_time": "45 min",
+      "calories": "420 calories"
+    }
+  ]
+}
