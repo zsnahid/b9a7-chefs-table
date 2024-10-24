@@ -1,11 +1,17 @@
-import BtnPrimarySm from "./BtnPrimarySm";
+import PropTypes from 'prop-types'
+import SavedRecipe from './SavedRecipe';
 
-export default function SavedRecipes() {
+SavedRecipes.propTypes = {
+  savedRecipes: PropTypes.array,
+  handleClick: PropTypes.func
+}
+
+export default function SavedRecipes({savedRecipes, handleClick}) {
   return (
     <div className="overflow-x-auto mb-10">
-      <h3 className="font-semibold text-center mb-2">Want to cook: 01</h3>
+      <h3 className="font-semibold text-center mb-2">Want to cook: {savedRecipes.length}</h3>
       <div className="border-b max-w-sm mx-auto mb-5"></div>
-      <table className="table-auto text-left font-fira text-gray">
+      <table className="table-auto text-left font-fira text-gray w-full">
         <thead>
           <tr>
             <th></th>
@@ -15,15 +21,9 @@ export default function SavedRecipes() {
           </tr>
         </thead>
         <tbody className="font-light">
-          <tr className="odd:bg-gray-light border-b-2">
-            <td className="p-3">1</td>
-            <td className="p-3">Chicken Caesar Salad</td>
-            <td className="p-3">20 minutes</td>
-            <td className="p-3">400 calories</td>
-            <td className="p-3">
-              <BtnPrimarySm btnText={"Preparing"} />
-            </td>
-          </tr>
+          {
+            savedRecipes.map(savedRecipe => <SavedRecipe key={savedRecipe.recipe_id} savedRecipe={savedRecipe} handleClick={handleClick}/>)
+          }
         </tbody>
       </table>
     </div>
